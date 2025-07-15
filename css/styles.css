@@ -6,3 +6,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    background-color: #e6e6e6;
+}
+
+/*! HEADER */
+#header-pagina {
+    height: 74px;
+    line-height: 74px;
+    background-color: white;
+}
+
+#logo {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#testo-logo {
+    vertical-align: middle;
+    font-size: 28px;
+    font-weight: bold;
+}
+
