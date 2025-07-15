@@ -1,6 +1,6 @@
 /*! REGOLE GENERALI */
 
-/* Reset pagina */
+/** Reset pagina */
 * {
     margin: 0;
     padding: 0;
@@ -36,23 +36,26 @@ body {
 .contenitore {
     max-width: 900px;
     margin: 0 auto;
+    background-color: white;
 }
 
-/* Contenitore button */
+/** Contenitore button */
 #contenitore-button {
     padding: 18px 50px 8px;  
-    background-color: white;
     height: 60px;
     margin-bottom: 3px;
+    border-top-left-radius: 7px; 
+    border-top-right-radius: 7px;
 }
 
-/*  Contenitore task 
+/** Contenitore task */
 #contenitore-task {
-    background-color: blue;
-} */
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding-bottom: 30px;
+}
  
 /*! BUTTON */
-
 button {
     font-size: 13px;
     padding: 8px;
@@ -60,7 +63,7 @@ button {
     border-radius: 3px;
 }
 
-/* Button-task */
+/** Button-task */
 #button-task {
     color: white;
     background-color: rgb(14, 142, 222);
@@ -74,3 +77,71 @@ button {
 
 }
 
+/*! LISTA E SOTTOLISTA */
+ul {
+    list-style-type: none; 
+}
+
+li {
+    padding-top: 8px;
+}
+
+/** Lista */
+.font-lista {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.lista-task {
+    padding-top: 30px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+/** Sottolista */
+.icone-sottolista {
+    padding-left: 5px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/** etichette */
+
+.etichette {
+    font-size: 10px;
+    padding: 5px 7px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    color: white;
+    vertical-align: middle;
+}
+
+/* Colori etichette */
+
+.bg-blu {
+    background-color: rgb(14, 142, 222);
+}
+
+.bg-viola {
+    background-color: rgb(159, 60, 250);
+}
+
+.bg-verde {
+    background-color: rgb(1, 211, 211);
+}
+
+.bg-arancione {
+    background-color: rgb(242, 160, 9);
+}
+
+.bg-rosa {
+    background-color: rgb(225, 119, 225);
+}
+
+.bg-verde_limone {
+    background-color: rgb(180, 244, 86);
+}
